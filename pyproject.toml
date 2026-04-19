@@ -1,0 +1,17 @@
+[project]
+name = "dl-model-lab-1"
+version = "0.1.0"
+description = "DCGAN trained on CIFAR-10 (Lab 1: Media generation via DL models)"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "torch>=2.2,<3",
+    "torchvision>=0.17,<1",
+    "numpy>=1.26,<3",
+    "matplotlib>=3.8,<4",
+    "tqdm>=4.66,<5",
+    "pillow>=10.2,<12",
+    "jupyter>=1.0,<2",
+    "ipykernel>=6.29,<7",
+    "notebook>=7.0,<8",
+]

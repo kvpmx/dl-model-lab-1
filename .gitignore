@@ -1,0 +1,19 @@
+# Datasets, generated samples, model weights
+data/
+samples/
+checkpoints/
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python / uv
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
